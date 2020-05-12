@@ -43,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Composition\DbMigrator.cs" />
     <Compile Include="Inheritance\PresentationObject.cs" />
+    <Compile Include="Composition\Installer.cs" />
+    <Compile Include="Composition\Logger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Inheritance\Text.cs" />

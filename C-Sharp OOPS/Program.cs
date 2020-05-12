@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,8 +9,19 @@ namespace C_Sharp_OOPS
     {
         static void Main(string[] args)
         {
-            var text = new Text {Width = 10f}; // Here we use ObjectInitializer to use Width property
-            text.Copy();
+            //var text = new Text {Width = 10f}; // Here we use ObjectInitializer to use Width property
+            //text.Copy();
+
+            var dbMigrator = new DbMigrator(new Logger());
+
+            var logger = new Logger();
+            var installer = new Installer(logger);
+
+            dbMigrator.Migrate();
+            installer.Install();
+
+
+
         }
     }
 }
