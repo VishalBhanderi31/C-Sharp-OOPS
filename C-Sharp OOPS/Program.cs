@@ -10,6 +10,8 @@ namespace C_Sharp_OOPS
     {
         static void Main(string[] args)
         {
+            var text = new Text {Width = 10f}; // Here we use ObjectInitializer to use Width property
+            text.Copy();
         }
     }
 }
