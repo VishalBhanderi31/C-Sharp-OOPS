@@ -4,9 +4,11 @@ namespace C_Sharp_OOPS
 {
     public class Car : Vehicle
     {
-        public Car()
+        public Car(string regisrationNumber) 
+            : base(regisrationNumber)
         {
-            Console.WriteLine("Car is being initialized.");
+            //Always intialise field specific to car class.
+            Console.WriteLine("Car is being initialized. registartionNumber {0}",regisrationNumber);
         }
     }
 }

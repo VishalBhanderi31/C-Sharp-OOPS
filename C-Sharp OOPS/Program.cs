@@ -27,7 +27,7 @@ namespace C_Sharp_OOPS
 
             //ConstructorInheritance
 
-            var car = new Car();
+            var car = new Car("XYZ1234");
             
 
 
