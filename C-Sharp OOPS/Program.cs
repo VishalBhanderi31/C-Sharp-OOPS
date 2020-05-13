@@ -25,6 +25,12 @@ namespace C_Sharp_OOPS
 
             //AccessModifier Check
 
+            //ConstructorInheritance
+
+            var car = new Car();
+            
+
+
 
 
         }
