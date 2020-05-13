@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace C_Sharp_OOPS
 {
+    //its like a power-point application
     class Program
     {
         static void Main(string[] args)
@@ -27,8 +28,13 @@ namespace C_Sharp_OOPS
 
             //ConstructorInheritance
 
-            var car = new Car("XYZ1234");
-            
+            //var car = new Car("XYZ1234");
+
+            //Upcasting and Downcasting
+            var textOne = new TextOne();
+            Shape shape = textOne;
+
+
 
 
 
